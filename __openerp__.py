@@ -28,7 +28,7 @@
     'author': 'C & G Software',
     "depends" : ['base', 'account','mrp'],
     "update_xml" : [
-                    'view_produzione.xml'],
+                    'view_produzione.xml','view_spedizioni.xml'],
                     
     'website': 'http://www.cgsoftware.it',
     'installable': True,

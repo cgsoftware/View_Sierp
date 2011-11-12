@@ -13,6 +13,7 @@ class mrp_production(osv.osv):
         for riga in obj.browse(cr, uid, ids):
             qty = riga.product_id.qty_available
             var[riga.id] = {'qty_available': qty}
+            
         return var    
    
 # SE CALCOLA ANCHE LA GIACENZA VIRTUALE PERDE IL CALCOLO DELLA GIACENZA VIRTUALE

@@ -15,12 +15,12 @@
            		
             	
 				<field name="qty_available"/>
-                <!--  <field name="virtual_available"/>  -->
-            </field>
+                <!--  <field name="virtual_available" -->
+                </field>
             </field>
         </record>
     
     </data>
 </openerp>
 
-            
+        
